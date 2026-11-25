@@ -17,4 +17,8 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
+  server: {
+    // Im Entwicklungsmodus /api an das lokale Backend weiterleiten
+    proxy: { '/api': 'http://localhost:8080' },
+  },
 })
