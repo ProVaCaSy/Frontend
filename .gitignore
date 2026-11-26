@@ -41,3 +41,4 @@ __screenshots__/
 # Environment Variables
 .env
 .env.*
+/src/services/generated

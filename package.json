@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "type-check": "vue-tsc --noEmit",
     "test": "vitest run",
-    "generate:api": "openapi-generator-cli generate -i ../api/openapi.yaml -g typescript-fetch -o src/services/generated"
+    "generate:api": "openapi-generator-cli generate -i provacasy-api.yaml -g typescript-axios -o src/services/generated"
   },
   "dependencies": {
     "@fullcalendar/core": "^6.1.22",
